@@ -1,0 +1,39 @@
+@import '../theme'
+
+#siteinfo
+  background: darken($black, 5%)
+  color: $grey
+  padding: 10px
+  text-align: center
+  font-style: italic
+  font-size: 14px
+
+#header
+  display: flex
+  flex-direction: row
+  align-items: center
+  padding: 0 10vw
+  height: 70px
+  background: $black
+  color: $white
+
+  nav
+    display: flex
+    flex-direction: row
+    gap: 10px
+
+    a
+      display: inline-flex
+      align-items: center
+      justify-content: center
+      padding: 15px
+      text-decoration: none
+      color: $white
+      transition: background 0.2s ease
+      border-radius: 5px
+
+      &:hover
+        background: $grey
+
+      &.active
+        background: $grey

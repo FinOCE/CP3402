@@ -1,0 +1,70 @@
+@import '../theme'
+
+#landing
+  margin-bottom: 150px
+
+  h1
+    font-size: 50px
+    color: $blush
+    margin-bottom: -20px
+
+  p:first-of-type
+    font-size: 25px
+    color: $red
+
+  p:nth-of-type(2)
+    color: $black
+    max-width: 500px
+
+  #cta
+    margin-top: 20px
+    display: flex
+    flex-direction: row
+    gap: 10px
+
+    a
+      display: inline-flex
+      align-items: center
+      justify-content: center
+      padding: 15px
+      text-decoration: none
+      color: $white
+      transition: background 0.2s ease
+      border-radius: 5px
+
+      &:nth-of-type(1)
+        background: $blush
+
+      &:nth-of-type(2)
+        background: $black
+
+      &:hover
+        background: $grey
+
+#explanation
+  margin-bottom: 150px
+
+  h1
+    font-size: 40px
+    color: $grey
+    margin-bottom: -20px
+
+  .endpoint
+    display: grid
+    grid-template-areas: 'method endpoint' 'body body'
+    grid-template-columns: 40px 1fr
+    align-items: center
+    padding: 10px
+    background: $silver
+    border-radius: 5px
+
+    span
+      grid-area: method
+      color: $grey
+      font-weight: bold
+
+    code:first-of-type
+      grid-area: endpoint
+
+    code:nth-of-type(2)
+      grid-area: body
