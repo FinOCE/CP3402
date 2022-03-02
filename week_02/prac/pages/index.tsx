@@ -21,6 +21,7 @@ const Home: NextPage = () => {
             <Link href="/">Get Started</Link>
             <Link href="/">View Documentation</Link>
           </div>
+          <img id={styles.image} src="https://media.discordapp.net/attachments/826497387190288417/864399088246456360/unknown.png" alt="Header image" />
         </section>
         <section id={styles.explanation}>
           <h1>How It Works</h1>

@@ -9,7 +9,7 @@ export default function Header(props: HeaderProps) {
   return (
     <>
       <div id={styles.siteinfo}>
-        This site is created as an example site, and the only pages that exist are the index and about.
+        This site is created as an example site, and the only pages that exist are the index and about. It required 3 sections, so there are two sections in the index and one in the about.
       </div>
       <header id={styles.header}>
         <nav>
