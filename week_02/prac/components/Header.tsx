@@ -13,22 +13,22 @@ export default function Header(props: HeaderProps) {
       </div>
       <header id={styles.header}>
         <nav>
-          <Link href="/">
+          <Link href="/CP3402/prac_01/">
             <a className={props.active === 'index' ? styles.active : ''}>
               Home
             </a>
           </Link>
-          <Link href="/">
+          <Link href="/CP3402/prac_01/">
             <a className={props.active === 'tutorials' ? styles.active : ''}>
               Tutorials
             </a>
           </Link>
-          <Link href="/">
+          <Link href="/CP3402/prac_01/">
             <a className={props.active === 'documentation' ? styles.active : ''}>
               Documentation
             </a>
           </Link>
-          <Link href="/about">
+          <Link href="/CP3402/prac_01/about/">
             <a className={props.active === 'about' ? styles.active : ''}>
               About
             </a>

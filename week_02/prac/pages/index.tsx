@@ -18,8 +18,8 @@ const Home: NextPage = () => {
           <p>Create event experiences easily</p>
           <p>We take the difficulties out of creating complex back-end services to create and run tournaments and provide an easy-to-use API to let you create stunning user experiences without all the hassle.</p>
           <div id={styles.cta}>
-            <Link href="/">Get Started</Link>
-            <Link href="/">View Documentation</Link>
+            <Link href="/CP3402/prac_01/">Get Started</Link>
+            <Link href="/CP3402/prac_01/">View Documentation</Link>
           </div>
           <img id={styles.image} src="https://media.discordapp.net/attachments/826497387190288417/864399088246456360/unknown.png" alt="Header image" />
         </section>
@@ -37,7 +37,7 @@ const Home: NextPage = () => {
           </div>
           <p>
             You do this, and we do the rest!{' '}
-            <Link href="/">Click here</Link> to view the documentation for Peacekeeper API.
+            <Link href="/CP3402/prac_01/">Click here</Link> to view the documentation for Peacekeeper API.
           </p>
         </section>
       </Main>
