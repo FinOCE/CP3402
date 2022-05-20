@@ -1,4 +1,4 @@
-# Learning Journal - Week 7
+# Learning Journal - Week 8
 
 ## Learning Activities
 
